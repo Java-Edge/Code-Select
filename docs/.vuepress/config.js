@@ -32,7 +32,7 @@ module.exports = {
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "Ken的知识库",
+            title: "编程严选网",
             description: "包含: Java八股文、面经..."
         }
     },
