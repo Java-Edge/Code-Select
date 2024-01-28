@@ -1,16 +1,16 @@
 {
-  "name": "CodeGuide",
+  "name": "Code-Select",
   "version": "2.0.1",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev docs --temp .temp",
+    "dev": "vuepress dev docs   --temp .temp",
     "build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
-    "vuepress": "^1.9.10",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-seo": "^0.1.4",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-tags": "^1.0.2",

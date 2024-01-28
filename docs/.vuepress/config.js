@@ -245,11 +245,9 @@ module.exports = {
                     {
                         text: '关于',
                         items: [
-                            {text: '关于自己', link: ''},
-                            {
-                                text: '关于学习',
-                                link: ''
-                            }
+                            {text: '关于自己', link: '/md/about/me/todo.md'},
+                            {text: '关于学习', link: '/md/about/study/todo.md'},
+                            {text: '关于职场', link: '/md/about/job/研发新人如何快速熟悉新项目和业务.md'}
                         ]
                     },
                     {
@@ -313,7 +311,7 @@ function genBarOther() {
             sidebarDepth: 2,
             children: [
                 "road-map.md",
-                "guide-to-read.md"
+                "guide-to-reading.md"
             ]
         }
     ]
