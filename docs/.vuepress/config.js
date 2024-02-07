@@ -127,11 +127,12 @@ module.exports = {
         }]
     ],
     themeConfig: {
-        docsRepo: "Ken / CodeSelect",
+        // 文档所在仓库
+        docsRepo: "Java-Edge/Code-Select",
         // 编辑文档的所在目录
         docsDir: 'docs',
-        // 文档放在一个特定的分支下：
-        docsBranch: 'master',
+        // 文档所在分支：
+        docsBranch: 'main',
         //logo: "/logo.png",
         editLinks: true,
         sidebarDepth: 0,
