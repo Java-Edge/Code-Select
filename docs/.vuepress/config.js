@@ -155,7 +155,7 @@ module.exports = {
                         items: [
                             {text: '关于自己', link: '/md/biz-arch/me/todo.md'},
                             {text: '关于学习', link: '/md/biz-arch/study/todo.md'},
-                            {text: '聚合支付架构', link: '/md/biz-arch/job/研发新人如何快速熟悉新项目和业务.md'}
+                            {text: '聚合支付架构', link: '/md/biz-arch/job/聚合支付架构从零到一.md'}
                         ]
                     },
                     {
