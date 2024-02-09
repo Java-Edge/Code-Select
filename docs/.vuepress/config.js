@@ -159,12 +159,9 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '算法',
+                        text: '金融系统设计',
                         items: [
-                            {
-                                text: '数据结构',
-                                link: ''
-                            }
+                            {text: '00-聚合支付架构', link: '/md/biz-arch/job/聚合支付架构从零到一.md'}
                         ]
                     },
                     {
