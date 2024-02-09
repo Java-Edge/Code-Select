@@ -151,6 +151,14 @@ module.exports = {
                         text: '路书', link: 'http://www.javaedge.cn/#/index'
                     },
                     {
+                        text: '业务架构',
+                        items: [
+                            {text: '关于自己', link: '/md/biz-arch/me/todo.md'},
+                            {text: '关于学习', link: '/md/biz-arch/study/todo.md'},
+                            {text: '聚合支付架构', link: '/md/biz-arch/job/研发新人如何快速熟悉新项目和业务.md'}
+                        ]
+                    },
+                    {
                         text: '算法',
                         items: [
                             {
@@ -241,14 +249,6 @@ module.exports = {
 
                                 ]
                             }
-                        ]
-                    },
-                    {
-                        text: '关于',
-                        items: [
-                            {text: '关于自己', link: '/md/about/me/todo.md'},
-                            {text: '关于学习', link: '/md/about/study/todo.md'},
-                            {text: '关于职场', link: '/md/about/job/研发新人如何快速熟悉新项目和业务.md'}
                         ]
                     },
                     {
