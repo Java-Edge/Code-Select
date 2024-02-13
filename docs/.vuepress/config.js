@@ -258,6 +258,17 @@ module.exports = {
                             {text: '开源项目 - Github', link: ''},
                             {text: '付费项目 - Gitcode', link: ''},
                         ]
+                    },
+                    {
+                        text: '面试题',
+                        items: [
+                            {text: '面试突击', link: '/md/zqy/面试题/面试突击.md'},
+                            {text: '面试题-Java基础', link: '/md/zqy/面试题/面试题-Java基础.md'},
+                            {text: '面试题-MySQL', link: '/md/zqy/面试题/面试题-MySQL.md'},
+                            {text: '面试题-Netty', link: '/md/zqy/面试题/面试题-Netty.md'},
+                            {text: '面试题-Redis', link: '/md/zqy/面试题/面试题-Redis.md'},
+                            {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},                            
+                        ]
                     }
                 ],
                 sidebar: {
