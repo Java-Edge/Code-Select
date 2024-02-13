@@ -161,6 +161,7 @@ module.exports = {
                         text: '大数据平台',
                         items: [
                             {text: '00-互联网大厂的大数据平台架构', link: '/md/bigdata/大数据平台架构.md'},
+                            {text: '01-数据库的下一站：对象存储', link: '/md/bigdata/数据库的下一站：对象存储.md'},
                         ]
                     },
                     {
@@ -169,7 +170,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🌍知识星球专栏',
+                        text: '🌍知识星球',
                         link: '#'
                     },
                     {
@@ -177,9 +178,9 @@ module.exports = {
                         link: 'https://space.bilibili.com/242935583'
                     },
                     {
-                        text: 'Github项目',
+                        text: 'Github',
                         items: [
-                            {text: '开源项目 - Github', link: 'https://github.com/Java-Edge'}
+                            {text: 'Github', link: 'https://github.com/Java-Edge'}
                         ]
                     },
                     {
@@ -190,7 +191,7 @@ module.exports = {
                             {text: '面试题-MySQL', link: '/md/zqy/面试题/面试题-MySQL.md'},
                             {text: '面试题-Netty', link: '/md/zqy/面试题/面试题-Netty.md'},
                             {text: '面试题-Redis', link: '/md/zqy/面试题/面试题-Redis.md'},
-                            {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},                            
+                            {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},
                         ]
                     }
                 ],
