@@ -170,20 +170,6 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🌍知识星球',
-                        link: '#'
-                    },
-                    {
-                        text: 'B站',
-                        link: 'https://space.bilibili.com/242935583'
-                    },
-                    {
-                        text: 'Github',
-                        items: [
-                            {text: 'Github', link: 'https://github.com/Java-Edge'}
-                        ]
-                    },
-                    {
                         text: '面试题',
                         items: [
                             {text: '面试突击', link: '/md/zqy/面试题/面试突击.md'},
@@ -192,6 +178,16 @@ module.exports = {
                             {text: '面试题-Netty', link: '/md/zqy/面试题/面试题-Netty.md'},
                             {text: '面试题-Redis', link: '/md/zqy/面试题/面试题-Redis.md'},
                             {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},
+                        ]
+                    },
+                    {
+                        text: '🌍知识星球',
+                        link: '#'
+                    },
+                    {
+                        text: 'Github',
+                        items: [
+                            {text: 'Github', link: 'https://github.com/Java-Edge'}
                         ]
                     }
                 ],
