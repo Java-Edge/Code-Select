@@ -16,7 +16,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "编程严选网",
-            description: "包含: Java 基础，面经手册，Netty4.x，手写Spring，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，Lottery抽奖系统，字节码编程..."
+            description: "包含: Java求职面经手册和攻略，大厂设计模式实践，大厂各种中台系统设计真实案例..."
         }
     },
     head: [
