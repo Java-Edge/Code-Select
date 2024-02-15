@@ -15,7 +15,7 @@ module.exports = {
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "JavaEdge",
+            title: "编程严选网",
             description: "包含: Java 基础，面经手册，Netty4.x，手写Spring，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，Lottery抽奖系统，字节码编程..."
         }
     },
@@ -112,7 +112,7 @@ module.exports = {
                             {text: '面试题-MySQL', link: '/md/zqy/面试题/面试题-MySQL.md'},
                             {text: '面试题-Netty', link: '/md/zqy/面试题/面试题-Netty.md'},
                             {text: '面试题-Redis', link: '/md/zqy/面试题/面试题-Redis.md'},
-                            {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},                            
+                            {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},
                         ]
                     }
                 ],
