@@ -90,6 +90,7 @@ module.exports = {
                         items: [
                             {text: '00-聚合支付架构', link: '/md/biz-arch/00-聚合支付架构从零到一.md'},
                             {text: '01-供应链域数据中台设计', link: '/md/biz-arch/01-供应链域数据中台设计.md'},
+                            {text: '02-供应链采购视角的业务系统架构', link: '/md/biz-arch/02-供应链采购视角的业务系统架构.md'},
                         ]
                     },
                     {
