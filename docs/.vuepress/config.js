@@ -63,11 +63,11 @@ module.exports = {
         // }],
     ],
     themeConfig: {
-        docsRepo: " Java-Edge/System-Design-Diagram",
+        docsRepo: "Java-Edge/Code-Select",
         // 编辑文档的所在目录
         docsDir: 'docs',
         // 文档放在一个特定的分支下：
-        docsBranch: 'master',
+        docsBranch: 'main',
         //logo: "/logo.png",
         editLinks: true,
         sidebarDepth: 0,
