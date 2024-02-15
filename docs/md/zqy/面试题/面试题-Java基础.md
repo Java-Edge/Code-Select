@@ -2,7 +2,7 @@
 typora-copy-images-to: imgs
 ---
 
-# Java 基础
+# Java 基础面试题
 
 项目推荐：京东的 asyncTool 并发框架，大量使用到了 `CompletableFuture`。
 
