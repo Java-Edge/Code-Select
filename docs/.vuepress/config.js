@@ -88,115 +88,32 @@ module.exports = {
                     {
                         text: '业务架构',
                         items: [
-                            {text: '关于自己', link: '/md/biz-arch/me/todo.md'},
-                            {text: '关于学习', link: '/md/biz-arch/study/todo.md'},
-                            {text: '聚合支付架构', link: '/md/biz-arch/job/聚合支付架构从零到一.md'}
+                            {text: '00-聚合支付架构', link: '/md/biz-arch/00-聚合支付架构从零到一.md'},
+                            {text: '01-供应链域数据中台设计', link: '/md/biz-arch/01-供应链域数据中台设计.md'},
                         ]
                     },
                     {
-                        text: '金融系统设计',
+                        text: '大数据平台',
                         items: [
-                            {text: '00-聚合支付架构', link: '/md/biz-arch/job/聚合支付架构从零到一.md'}
+                            {text: '00-互联网大厂的大数据平台架构', link: '/md/bigdata/大数据平台架构.md'},
+                            {text: '01-数据库的下一站：对象存储', link: '/md/bigdata/数据库的下一站：对象存储.md'},
                         ]
                     },
                     {
-                        text: 'Java',
+                        text: '设计模式',
                         items: [
-                            {
-                                text: '面经手册',
-                                link: ''
-                            },
-                            {
-                                text: '基础技术',
-                                link: ''
-                            }
-                        ]
-                    },
-                    {
-                        text: 'Spring',
-                        items: [
-                            {
-                                text: 'Spring 专栏',
-                                link: ''
-                            },
-                            {
-                                text: 'Mybatis 专栏',
-                                link: ''
-                            },
-                            {
-                                text: 'Spring Cloud',
-                                link: ''
-                            },
-                            {
-                                text: '源码分析专栏',
-                                link: ''
-                            }
-                        ]
-                    },
-                    {
-                        text: '面向对象',
-                        items: [
-                            {
-                                text: 'Java设计模式',
-                                items: [
-                                    {
-                                        text: '创建型模式',
-                                        link: ''
-                                    },
-                                    {
-                                        text: '结构型模式',
-                                        link: ''
-                                    },
-                                    {
-                                        text: '行为型模式',
-                                        link: ''
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        text: '实战项目',
-                        items: [
-                            {
-                                text: '业务类型', items: [
-                                    {
-                                        text: 'ChatGPT AI 问答助手',
-                                        link: ''
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        text: '🌍知识星球',
-                        link: '#'
-                    },
-                    {
-                        text: '📝产品',
-                        items: [
-
-                            {
-                                text: 'PDF —— 加入星球免费获取', items: [
-
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        text: 'B站',
-                        link: '#'
-                    },
-                    {
-                        text: '源码',
-                        items: [
-                            {text: '开源项目 - Github', link: ''},
-                            {text: '付费项目 - Gitcode', link: ''},
                         ]
                     },
                     {
                         text: '面试题',
-                        link: '/md/zqy/面试题/面试突击.md'
+                        items: [
+                            {text: '面试突击', link: '/md/zqy/面试题/面试突击.md'},
+                            {text: '面试题-Java基础', link: '/md/zqy/面试题/面试题-Java基础.md'},
+                            {text: '面试题-MySQL', link: '/md/zqy/面试题/面试题-MySQL.md'},
+                            {text: '面试题-Netty', link: '/md/zqy/面试题/面试题-Netty.md'},
+                            {text: '面试题-Redis', link: '/md/zqy/面试题/面试题-Redis.md'},
+                            {text: '面试题-场景题', link: '/md/zqy/面试题/面试题-场景题.md'},                            
+                        ]
                     }
                 ],
                 sidebar: {
