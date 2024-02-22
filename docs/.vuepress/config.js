@@ -83,7 +83,10 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
-                        text: '路书', link: 'http://www.javaedge.cn/#/index'
+                        text: 'RPC',
+                        items: [
+                            {text: '熔断限流', link: '/md/rpc/熔断限流.md'},
+                        ]
                     },
                     {
                         text: '业务架构',
@@ -91,6 +94,9 @@ module.exports = {
                             {text: '00-聚合支付架构', link: '/md/biz-arch/00-聚合支付架构从零到一.md'},
                             {text: '01-供应链域数据中台设计', link: '/md/biz-arch/01-供应链域数据中台设计.md'},
                             {text: '02-供应链采购视角的业务系统架构', link: '/md/biz-arch/02-供应链采购视角的业务系统架构.md'},
+                            {text: '03-客服平台架构实践', link: '/md/biz-arch/03-客服平台架构实践.md'},
+                            {text: '04-数据质量中心系统设计', link: '/md/biz-arch/04-数据质量中心系统设计.md'},
+                            {text: '05-大厂CRM系统架构优化实战', link: '/md/biz-arch/05-大厂CRM系统架构优化实战.md'},
                         ]
                     },
                     {
@@ -98,6 +104,12 @@ module.exports = {
                         items: [
                             {text: '00-互联网大厂的大数据平台架构', link: '/md/bigdata/大数据平台架构.md'},
                             {text: '01-数据库的下一站：对象存储', link: '/md/bigdata/数据库的下一站：对象存储.md'},
+                        ]
+                    },
+                    {
+                        text: '计算机网络',
+                        items: [
+                            {text: '00-计算机网络-网络层原理', link: '/md/network/计算机网络-网络层原理.md'},
                         ]
                     },
                     {
@@ -117,6 +129,7 @@ module.exports = {
                         ]
                     }
                 ],
+                // 配置文章的侧边导航栏
                 sidebar: {
                     "/md/zqy/面试题/": [
                         {
@@ -125,11 +138,57 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "面试突击.md",
-                                "面试题-Java基础",
+                                "面试题-Java基础.md",
                                 "面试题-MySQL.md",
                                 "面试题-Netty.md",
                                 "面试题-Redis.md",
                                 "面试题-场景题.md"
+                            ]
+                        }
+                    ],
+                    "/md/biz-arch/": [
+                        {
+                            title: "业务架构设计",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "00-聚合支付架构从零到一.md",
+                                "01-供应链域数据中台设计.md",
+                                "02-供应链采购视角的业务系统架构.md",
+                                "03-客服平台架构实践.md",
+                                "04-数据质量中心系统设计.md",
+                                "05-大厂CRM系统架构优化实战.md",
+                            ]
+                        }
+                    ],
+                    "/md/bigdata/": [
+                        {
+                            title: "大数据平台",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "大数据平台架构.md",
+                                "数据库的下一站：对象存储.md",
+                            ]
+                        }
+                    ],
+                    "/md/rpc/": [
+                        {
+                            title: "RPC",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "熔断限流.md",
+                            ]
+                        }
+                    ],
+                    "/md/network/": [
+                        {
+                            title: "计算机网络",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "计算机网络-网络层原理.md"
                             ]
                         }
                     ],
