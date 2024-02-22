@@ -124,6 +124,10 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'Dubbo深入理解系列',
+                        link: '/md/zqy/Dubbo/01-互联网架构的发展历程.md'
+                    },
+                    {
                         text: '面试题',
                         items: [
                             {text: '面试突击', link: '/md/zqy/面试题/面试突击.md'},
@@ -137,6 +141,17 @@ module.exports = {
                 ],
                 // 配置文章的侧边导航栏
                 sidebar: {
+                    "/md/zqy/Dubbo/": [
+                        {
+                            title: "Dubbo深入理解系列",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "01-互联网架构的发展历程.md",
+                                "02-Dubbo特性及工作原理.md"
+                            ]
+                        }
+                    ]
                     "/md/zqy/面试题/": [
                         {
                             title: "面试大全",
