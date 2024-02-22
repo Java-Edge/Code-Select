@@ -113,6 +113,12 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'MQTT',
+                        items: [
+                            {text: '07-MQTT发布订阅模式介绍', link: '/md/MQTT/07-MQTT发布订阅模式介绍.md'},
+                        ]
+                    },
+                    {
                         text: '设计模式',
                         items: [
                         ]
@@ -189,6 +195,16 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "计算机网络-网络层原理.md"
+                            ]
+                        }
+                    ],
+                    "/md/MQTT/": [
+                        {
+                            title: "MQTT",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "07-MQTT发布订阅模式介绍.md"
                             ]
                         }
                     ],
