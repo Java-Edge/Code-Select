@@ -100,6 +100,12 @@ module.exports = {
                         ]
                     },
                     {
+                        text: '交易中台',
+                        items: [
+                            {text: '00-如何防止订单二次重复支付？', link: '/md/trade/00-如何防止订单二次重复支付？.md'},
+                        ]
+                    },
+                    {
                         text: '大数据平台',
                         items: [
                             {text: '00-互联网大厂的大数据平台架构', link: '/md/bigdata/大数据平台架构.md'},
@@ -179,6 +185,16 @@ module.exports = {
                                 "03-客服平台架构实践.md",
                                 "04-数据质量中心系统设计.md",
                                 "05-大厂CRM系统架构优化实战.md",
+                            ]
+                        }
+                    ],
+                    "/md/trade/": [
+                        {
+                            title: "交易中台",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "00-如何防止订单二次重复支付？.md",
                             ]
                         }
                     ],
