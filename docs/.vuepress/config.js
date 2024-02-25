@@ -97,6 +97,7 @@ module.exports = {
                             {text: '03-客服平台架构实践', link: '/md/biz-arch/03-客服平台架构实践.md'},
                             {text: '04-数据质量中心系统设计', link: '/md/biz-arch/04-数据质量中心系统设计.md'},
                             {text: '05-大厂CRM系统架构优化实战', link: '/md/biz-arch/05-大厂CRM系统架构优化实战.md'},
+                            {text: '06-运营后台系统设计', link: '/md/biz-arch/06-运营后台系统设计.md'},
                         ]
                     },
                     {
@@ -185,6 +186,7 @@ module.exports = {
                                 "03-客服平台架构实践.md",
                                 "04-数据质量中心系统设计.md",
                                 "05-大厂CRM系统架构优化实战.md",
+                                "06-运营后台系统设计.md",
                             ]
                         }
                     ],
