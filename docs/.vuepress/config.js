@@ -131,8 +131,8 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Dubbo深入理解系列',
-                        link: '/md/zqy/Dubbo/01-互联网架构的发展历程.md'
+                        text: 'Dubbo',
+                        link: '/md/Dubbo/01-互联网架构的发展历程.md'
                     },
                     {
                         text: '面试题',
@@ -148,14 +148,19 @@ module.exports = {
                 ],
                 // 配置文章的侧边导航栏
                 sidebar: {
-                    "/md/zqy/Dubbo/": [
+                    "/md/Dubbo/": [
                         {
                             title: "Dubbo深入理解系列",
                             collapsable: false,
                             sidebarDepth: 0,
                             children: [
                                 "01-互联网架构的发展历程.md",
-                                "02-Dubbo特性及工作原理.md"
+                                "02-Dubbo特性及工作原理.md",
+                                "03-Dubbo的负载均衡及高性能RPC调用.md",
+                                "04-Dubbo的通信协议.md",
+                                "05-Dubbo的应用及注册和SPI机制.md",
+                                "06-Dubbo相关面试题和源码使用技巧.md",
+                                "07-Dubbo真实生产环境思考.md"
                             ]
                         }
                     ],
