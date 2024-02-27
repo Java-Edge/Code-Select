@@ -131,6 +131,12 @@ module.exports = {
                         ]
                     },
                     {
+                        text: '并发编程',
+                        items: [
+                            {text: '00-Java并发编程', link: '/md/concurrency/00-Java并发编程.md'},
+                        ]
+                    },
+                    {
                         text: 'Dubbo',
                         link: '/md/Dubbo/01-互联网架构的发展历程.md'
                     },
@@ -257,6 +263,16 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "00-爬虫基础.md"
+                            ]
+                        }
+                    ],
+                    "/md/concurrency/": [
+                        {
+                            title: "并发编程",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "00-Java并发编程.md"
                             ]
                         }
                     ],
