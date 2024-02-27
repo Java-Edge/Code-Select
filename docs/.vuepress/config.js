@@ -135,6 +135,10 @@ module.exports = {
                         link: '/md/Dubbo/01-互联网架构的发展历程.md'
                     },
                     {
+                        text: '爬虫',
+                        link: '/md/spider/00-爬虫基础.md'
+                    },
+                    {
                         text: '面试题',
                         items: [
                             {text: '面试突击', link: '/md/zqy/面试题/面试突击.md'},
@@ -146,7 +150,7 @@ module.exports = {
                         ]
                     }
                 ],
-                // 配置文章的侧边导航栏
+                // 配置文章的侧边导航栏  新增文章提交前都需要在此处操作！！！
                 sidebar: {
                     "/md/Dubbo/": [
                         {
@@ -243,6 +247,16 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "07-MQTT发布订阅模式介绍.md"
+                            ]
+                        }
+                    ],
+                    "/md/spider/": [
+                        {
+                            title: "MQTT",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "00-爬虫基础.md"
                             ]
                         }
                     ],
