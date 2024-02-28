@@ -273,7 +273,6 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "00-Java并发编程.md",
-                                "00-Java并发编程2.md"
                             ]
                         }
                     ],
