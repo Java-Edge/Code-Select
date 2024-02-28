@@ -16,7 +16,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "编程严选网",
-            description: "包含: Java求职面经手册和攻略，大厂设计模式实践，大厂各种中台系统设计真实案例..."
+            description: "Java求职面经手册和攻略，大厂设计模式、DDD实践，大厂各大中台系统设计真实案例...集全网干货于一站！"
         }
     },
     head: [
@@ -30,7 +30,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "JavaEdge, bugstack 虫洞栈, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，Java面试题，API网关，SpringBoot Stater, ChatGPT"
+            content: "JavaEdge, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，Java面试题，API网关，SpringBoot Stater, ChatGPT"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
     ],
@@ -111,6 +111,12 @@ module.exports = {
                         items: [
                             {text: '00-互联网大厂的大数据平台架构', link: '/md/bigdata/大数据平台架构.md'},
                             {text: '01-数据库的下一站：对象存储', link: '/md/bigdata/数据库的下一站：对象存储.md'},
+                        ]
+                    },
+                    {
+                        text: 'DDD',
+                        items: [
+                            {text: '基于电商履约场景的DDD实战', link: '/md/DDD/基于电商履约场景的DDD实战.md'},
                         ]
                     },
                     {
@@ -273,6 +279,16 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "00-Java并发编程.md",
+                            ]
+                        }
+                    ],
+                    "/md/DDD/": [
+                        {
+                            title: "DDD领域驱动设计",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "基于电商履约场景的DDD实战.md",
                             ]
                         }
                     ],
