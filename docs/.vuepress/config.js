@@ -147,6 +147,12 @@ module.exports = {
                         link: '/md/Dubbo/01-互联网架构的发展历程.md'
                     },
                     {
+                        text: 'SpringCloudAlibaba全家桶',
+                        items: [
+                            {text: 'SpringCloudAlibaba全家桶介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba全家桶介绍.md'},
+                        ]
+                    },
+                    {
                         text: '爬虫',
                         link: '/md/spider/00-爬虫基础.md'
                     },
