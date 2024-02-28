@@ -147,9 +147,9 @@ module.exports = {
                         link: '/md/Dubbo/01-互联网架构的发展历程.md'
                     },
                     {
-                        text: 'SpringCloudAlibaba全家桶',
+                        text: 'Spring Cloud Alibaba',
                         items: [
-                            {text: 'SpringCloudAlibaba全家桶介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba全家桶介绍.md'},
+                            {text: 'SpringCloudAlibaba介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba介绍.md'},
                         ]
                     },
                     {
@@ -285,6 +285,16 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 "00-Java并发编程.md",
+                            ]
+                        }
+                    ],
+                    "/md/spring/spring-cloud/": [
+                        {
+                            title: "Spring Cloud Alibaba",
+                            collapsable: false,
+                            sidebarDepth: 0,
+                            children: [
+                                "SpringCloudAlibaba介绍.md"
                             ]
                         }
                     ],
