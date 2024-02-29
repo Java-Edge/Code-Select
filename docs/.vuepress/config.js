@@ -150,6 +150,7 @@ module.exports = {
                         text: 'Spring Cloud Alibaba',
                         items: [
                             {text: 'SpringCloudAlibaba介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba介绍.md'},
+                            {text: 'SpringCloudAlibaba技术栈介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba技术栈介绍.md'}
                         ]
                     },
                     {
@@ -294,7 +295,8 @@ module.exports = {
                             collapsable: false,
                             sidebarDepth: 0,
                             children: [
-                                "SpringCloudAlibaba介绍.md"
+                                "SpringCloudAlibaba介绍.md",
+                                "SpringCloudAlibaba技术栈介绍.md"
                             ]
                         }
                     ],
