@@ -291,7 +291,7 @@ module.exports = {
                     ],
                     "/md/spring/spring-cloud/": [
                         {
-                            title: "Spring Cloud Alibaba",
+                            title: "Spring Cloud",
                             collapsable: false,
                             sidebarDepth: 0,
                             children: [
