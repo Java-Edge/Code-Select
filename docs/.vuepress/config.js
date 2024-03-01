@@ -155,7 +155,9 @@ module.exports = {
                     },
                     {
                         text: '爬虫',
-                        link: '/md/spider/00-爬虫基础.md'
+                        items:[{link: '/md/spider/00-爬虫基础.md'},
+                        {text: '利用python实现小说自由', link: '/md/spider/利用python实现小说自由.md'}
+                        ]
                     },
                     {
                         text: '面试题',
@@ -275,7 +277,8 @@ module.exports = {
                             collapsable: false,
                             sidebarDepth: 0,
                             children: [
-                                "00-爬虫基础.md"
+                                "00-爬虫基础.md",
+                                "利用python实现小说自由.md"
                             ]
                         }
                     ],
