@@ -150,11 +150,15 @@ module.exports = {
                         text: 'Spring Cloud Alibaba',
                         items: [
                             {text: 'SpringCloudAlibaba介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba介绍.md'},
+                            {text: 'SpringCloudAlibaba技术栈介绍', link: '/md/spring/spring-cloud/SpringCloudAlibaba技术栈介绍.md'}
                         ]
                     },
                     {
                         text: '爬虫',
-                        link: '/md/spider/00-爬虫基础.md'
+                        items:[{link: '/md/spider/00-爬虫基础.md'},
+                        {text: '利用python实现小说自由', link: '/md/spider/利用python实现小说自由.md'},
+                        {text:'python高级爬虫实战之Headers信息校验-User-Agent',link:'/md/spider/python高级爬虫实战之Headers信息校验-User-Agent.md'}
+                        ]
                     },
                     {
                         text: '面试题',
@@ -274,7 +278,9 @@ module.exports = {
                             collapsable: false,
                             sidebarDepth: 0,
                             children: [
-                                "00-爬虫基础.md"
+                                "00-爬虫基础.md",
+                                "利用python实现小说自由.md",
+                                "python高级爬虫实战之Headers信息校验-User-Agent"
                             ]
                         }
                     ],
@@ -290,11 +296,12 @@ module.exports = {
                     ],
                     "/md/spring/spring-cloud/": [
                         {
-                            title: "Spring Cloud Alibaba",
+                            title: "Spring Cloud",
                             collapsable: false,
                             sidebarDepth: 0,
                             children: [
-                                "SpringCloudAlibaba介绍.md"
+                                "SpringCloudAlibaba介绍.md",
+                                "SpringCloudAlibaba技术栈介绍.md"
                             ]
                         }
                     ],
