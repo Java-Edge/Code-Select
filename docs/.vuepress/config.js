@@ -157,7 +157,9 @@ module.exports = {
                         text: '爬虫',
                         items:[{link: '/md/spider/00-爬虫基础.md'},
                         {text: '利用python实现小说自由', link: '/md/spider/利用python实现小说自由.md'},
-                        {text:'python高级爬虫实战之Headers信息校验-User-Agent',link:'/md/spider/python高级爬虫实战之Headers信息校验-User-Agent.md'}
+                        {text:'python高级爬虫实战之Headers信息校验-User-Agent',link:'/md/spider/python高级爬虫实战之Headers信息校验-User-Agent.md'},
+                        {text:'python高级爬虫实战之Headers信息校验-Cookie',link:'/md/spider/python高级爬虫实战之Headers信息校验-Cookie.md'}
+
                         ]
                     },
                     {
@@ -280,7 +282,8 @@ module.exports = {
                             children: [
                                 "00-爬虫基础.md",
                                 "利用python实现小说自由.md",
-                                "python高级爬虫实战之Headers信息校验-User-Agent"
+                                "python高级爬虫实战之Headers信息校验-User-Agent",
+                                "python高级爬虫实战之Headers信息校验-Cookie"
                             ]
                         }
                     ],
